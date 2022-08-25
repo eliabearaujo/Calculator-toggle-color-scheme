@@ -5,20 +5,10 @@
   outline: 0;
   transition: all 0.5s ease;
 }
-
-body {
-  font-family: sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
 body {
   background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  font-family: sans-serif;
 }
-
 .container {
   height: 100vh;
   width: 100vw;
@@ -47,12 +37,12 @@ body {
   color: #333;
 }
 
-/* .color-scheme-toggler.active::before {
+.color-scheme-toggler.active::before {
   background-color: #fff;
-} */
+}
 
 .color-scheme-toggler::before {
-  content: "OOOOOO";
+  content: "";
   height: 30px;
   width: 30px;
   position: absolute;

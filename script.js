@@ -24,13 +24,13 @@ const calculator = document.querySelector(".calculator");
 const toggleIcon = document.querySelector(".toggler-icon");
 themeToggleBtn.addEventListener("click", handleTheme);
 
-function handleTheme() {
-  calculator.classList.toggle("dark");
-  themeToggleBtn.classList.toggle("active");
-}
-// let isDark = true;
-// themeToggleBtn.onclick = () => {
+// function handleTheme() {
 //   calculator.classList.toggle("dark");
 //   themeToggleBtn.classList.toggle("active");
-//   isDark = !isDark;
-// };
+// }
+// // let isDark = true;
+// // themeToggleBtn.onclick = () => {
+// //   calculator.classList.toggle("dark");
+// //   themeToggleBtn.classList.toggle("active");
+// //   isDark = !isDark;
+// // };
