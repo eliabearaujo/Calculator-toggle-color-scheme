@@ -19,6 +19,7 @@ buttons.forEach((item) => {
     } else if (display.innerText == "" && item.id == "equal") {
       display.innerText = "Empty!";
       setTimeout(() => (display.innerText = ""), 2000);
+      //Concatena os valores que forem clicados.
     } else {
       display.innerText += item.id;
     }
